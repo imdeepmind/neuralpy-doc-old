@@ -23,12 +23,10 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
-  "devDependencies": {
+  "dependencies": {
     "gatsby": "^2.23.3",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
-  },
-  "dependencies": {
+    "react-dom": "^16.13.1",
     "@emotion/core": "^10.0.28",
     "@emotion/styled": "^10.0.27",
     "@mdx-js/mdx": "^1.6.5",
