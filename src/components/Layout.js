@@ -42,14 +42,13 @@ const SiteContentWrapper = styled.div`
 `;
 
 const SiteContent = styled.main`
-  padding: 2rem 1rem 2rem;
+  padding: 0rem 1rem 2rem;
   transition: 0.25s var(--ease-in-out-quad);
   opacity: ${p => (p.navOpen ? 0.3 : 1)};
   transform: ${p => (p.navOpen ? `translateX(16rem)` : null)};
   ${mediaqueries.desktop_up`
     transform: translateX(0);
     opacity: 1;
-    padding: 7rem 3rem 3rem;
     max-width: 50rem;
   `};
 `;
