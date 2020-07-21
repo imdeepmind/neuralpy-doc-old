@@ -1,17 +1,13 @@
 module.exports = {
   siteMetadata: {
-    title: `Document by Code Bushi`,
-    name: `Code Bushi`,
-    siteUrl: `https://codebushi.com`,
-    description: `This is my description that will be used in the meta tags and important for search results`,
+    title: `NeuralPy Deep Learning Library`,
+    name: `imdeepmind`,
+    siteUrl: `https://neuralpy.xyz`,
+    description: `A Keras like Deep Learning library that works on top of PyTorch`,
     social: [
       {
         name: `github`,
-        url: `https://github.com/codebushi`
-      },
-      {
-        name: `twitter`,
-        url: `https://twitter.com/HuntaroSan`
+        url: `https://github.com/imdeepmind/NeuralPy`
       }
     ],
     sidebarConfig: {
@@ -51,11 +47,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Document`,
-        short_name: `Document`,
+        name: `NeuralPy`,
+        short_name: `NeuralPy`,
         start_url: `/`,
-        background_color: `#182952`,
-        theme_color: `#a2466c`,
+        background_color: `#000`,
+        theme_color: `#ee4c2c`,
         display: `standalone`,
         icon: 'src/site-icon.png'
       }
