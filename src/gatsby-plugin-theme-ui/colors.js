@@ -1,17 +1,17 @@
 export default {
   text: '#000',
   background: '#fff',
-  primary: '#e63b19',
+  primary: '#ee4c2c',
   secondary: '#c70d3a',
   sidebar: '#eee',
   borderColor: 'rgba(0, 0, 0, 0.15)',
   modes: {
     dark: {
       text: '#fff',
-      background: '#182952',
-      primary: '#f638dc',
+      background: '#000',
+      primary: '#fff',
       secondary: '#ff7976',
-      sidebar: '#101d3c',
+      sidebar: '#000',
       borderColor: 'rgba(255, 255, 255, 0.15)'
     },
     cool: {
