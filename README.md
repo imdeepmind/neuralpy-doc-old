@@ -70,8 +70,8 @@ Document uses React Helmet to add meta tags to the website's `<head>` tag. When 
 
 ```md
 ---
-title: "Document by Code Bushi"
-description: "This is the meta description"
+title: 'Document by Code Bushi'
+description: 'This is the meta description'
 ---
 ```
 
