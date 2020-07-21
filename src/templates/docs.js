@@ -10,7 +10,7 @@ const DocsTemplate = ({ data, location }) => {
 
   return (
     <Layout tableOfContents={mdx.tableOfContents} location={location}>
-      <SEO title={mdx.frontmatter.title} description={mdx.frontmatter.description} />
+      <SEO title={mdx.frontmatter.pageTitle || mdx.frontmatter.title} description={mdx.frontmatter.description} />
       {/* <Heading>{mdx.frontmatter.title}</Heading> */}
       <MDXRenderer>{mdx.body}</MDXRenderer>
     </Layout>
@@ -32,6 +32,7 @@ export const pageQuery = graphql`
       frontmatter {
         title
         description
+        pageTitle
       }
     }
   }

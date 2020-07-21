@@ -11,7 +11,7 @@ module.exports = {
       }
     ],
     sidebarConfig: {
-      forcedNavOrder: ['/'],
+      forcedNavOrder: ['docs'],
       ignoreIndex: false
     }
   },
